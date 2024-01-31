@@ -81,7 +81,7 @@ function App() {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-cover bg-center pt-44">
-      <div className=" bg-red-500 p-8 rounded-lg w-96 opacity-95">
+      <div className=" bg-red-500 p-8 rounded-lg w-72 opacity-95">
         <h1 className="text-white text-3xl font-bold mb-4 text-center ">වැඩි විස්තර දැනගැනීම සඳහා පහත තොරතුරු ලබා දෙන්න</h1>
         <form className="space-y-4" onSubmit={handleSubmit}>
           <div>
