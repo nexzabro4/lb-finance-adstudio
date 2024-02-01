@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import './car.css'
+import  Quote from '../img/q1.png'
 
 function App() {
   const [formData, setFormData] = useState({
@@ -80,8 +81,15 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-cover bg-center pt-32">
-      <div className=" bg-red-500 p-8 rounded-lg w-auto opacity-95">
+    <div className="min-h-screen flex flex-col bg-cover bg-center">
+  {/* Quote Image at the top */}
+  <div className="flex justify-center items-center p-9">
+    <img src={Quote} alt="Your Image"  />
+  </div>
+
+  {/* Form and Content */}
+  <div className="flex justify-center items-center">
+    <div className=" bg-red-500 p-8 rounded-lg w-auto opacity-95">
         <h1 className="text-white text-3xl font-bold mb-4 text-center ">වැඩි විස්තර දැනගැනීම සඳහා පහත තොරතුරු ලබා දෙන්න</h1>
         <form className="space-y-4" onSubmit={handleSubmit}>
           <div>
@@ -159,6 +167,7 @@ function App() {
 )}
 
       </div>
+    </div>
     </div>
   );
 }
