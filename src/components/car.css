@@ -1,6 +1,6 @@
 @media only screen and (max-width: 480px) {
     body {
-        background-image: url("../img/mob.jpeg");
+        background-image: url("../img/2.2.jpg");
         background-size: cover;
         /* Ensures the background image covers the entire screen */
         background-repeat: no-repeat;
@@ -13,7 +13,7 @@
 /* background image for devices with 481px or above */
 @media only screen and (min-width: 481px) {
     body {
-        background-image: url("../img/car3.jpg");
+        background-image: url("../img/1.1.jpg");
         background-size: cover;
         /* Ensures the background image covers the entire screen */
         background-repeat: no-repeat;
