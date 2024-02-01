@@ -1,6 +1,6 @@
 @media only screen and (max-width: 480px) {
     body {
-        background-image: url("../img/carMobile.png");
+        background-image: url("../img/mob.jpeg");
         background-size: cover;
         /* Ensures the background image covers the entire screen */
         background-repeat: no-repeat;
